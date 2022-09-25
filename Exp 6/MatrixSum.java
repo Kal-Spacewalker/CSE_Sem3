@@ -18,13 +18,14 @@ class MatrixSum
 					ndsum=ndsum+m[r][c];
 			}
 		}
+		System.out.println("");
 		for(r=0;r<3;r++)
 		{
 			for(c=0;c<3;c++)
 				System.out.print(m[r][c]+" ");
 			System.out.println();
 		}
-		System.out.println("Sum of Diagonal elements="+dsum);
+		System.out.println("\nSum of Diagonal elements="+dsum);
 		System.out.println("Sum of non-diagonal elements="+ndsum);
 	}
 }
