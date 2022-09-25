@@ -15,8 +15,8 @@ class CheckIng
 		String s=sc.next();
 		boolean c=CheckIng.check(s);
 		if(c)
-			System.out.println("\n"s+" ends with ing");
+			System.out.println("\n"+s+" ends with ing");
 		else
-			System.out.println("\n"s+" does not end with ing");
+			System.out.println("\n"+s+" does not end with ing");
 	}
 }
