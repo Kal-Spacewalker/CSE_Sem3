@@ -14,7 +14,7 @@ class DecToBin
 			n=n/2;
 			i++;
 		}
-		System.out.print("Binary equivelent of "+n+" n is: "+);
+		System.out.print("Binary equivelent of "+n+" n is: ");
 		for(j=i-1;j>=0;j--)
 		{
 			System.out.print(rem[j]);
